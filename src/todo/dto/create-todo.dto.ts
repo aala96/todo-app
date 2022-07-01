@@ -7,7 +7,7 @@ export class CreateTodoDto {
   title: string;
 
   @IsNotEmpty()
-  description: string;
+  description_test: string;
 
   @IsOptional()
   steps: Steps[];
