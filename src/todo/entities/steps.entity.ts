@@ -9,7 +9,7 @@ export class Steps {
   id: string;
   
   @Column()
-  description: string;
+  description_annother_test: string;
 
   @Column()
   status: TodoStatus;
