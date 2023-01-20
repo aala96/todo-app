@@ -12,7 +12,7 @@ export class Steps {
   descriptionest: string;
 
   @Column()
-  status: TodoStatus;
+  statusTodo: TodoStatus;
 
   @ManyToOne((type) => Todo, task => task.steps, { eager: false })
   todo : Todo;
